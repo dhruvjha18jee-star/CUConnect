@@ -1,0 +1,16 @@
+# Python & Virtual Environment
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local runtime SQLite database & ad-hoc user uploads (re-created cleanly via `python scripts/seed_data.py`)
+cuconnect.db
+*.db-journal
+ui/uploads/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

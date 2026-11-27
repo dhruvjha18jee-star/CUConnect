@@ -1,0 +1,29 @@
+[
+  {
+    "users": 100,
+    "edges": 500,
+    "build_sec": 0.009,
+    "bfs_ms": 0.034,
+    "suggestions_ms": 1.13,
+    "feed_ms": 0.035,
+    "trie_ms": 0.08
+  },
+  {
+    "users": 1000,
+    "edges": 5000,
+    "build_sec": 0.104,
+    "bfs_ms": 0.362,
+    "suggestions_ms": 2.441,
+    "feed_ms": 0.172,
+    "trie_ms": 1.942
+  },
+  {
+    "users": 5000,
+    "edges": 25000,
+    "build_sec": 0.695,
+    "bfs_ms": 6.721,
+    "suggestions_ms": 3.691,
+    "feed_ms": 0.088,
+    "trie_ms": 2.179
+  }
+]
